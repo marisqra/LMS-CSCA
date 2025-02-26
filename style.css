@@ -168,3 +168,106 @@ nav ul li {
     margin: 0 15px 15px;
     line-height: 1.5;
 }
+
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.event-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.event-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.casa-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.casa-texto {
+    flex: 1;
+}
+
+.casa-texto h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 32px;
+    color: #2A3F25;
+    margin-bottom: 20px;
+}
+
+.casa-texto p {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    color: #2A3F25;
+    line-height: 1.6;
+}
+
+.casa-imagem {
+    flex: 1;
+    text-align: right;
+}
+
+.casa-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.oportunidades-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    width: 45%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card button {
+    width: 173px;
+    height: 56px;
+    align-self: flex-end;
+    background-color: #a52a2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
